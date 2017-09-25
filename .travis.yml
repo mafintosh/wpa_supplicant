@@ -5,12 +5,12 @@ language: node_js
 addons:
   apt:
     sources:
-    - ubuntu-toolchain-r-test
-  packages:
-    - g++-4.8
-    - gcc-4.8
-    - dbus
-    - libdbus-1-dev
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+      - gcc-4.8
+      - dbus
+      - libdbus-1-dev
 
 node_js:
   - '6.0'
