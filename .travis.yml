@@ -1,7 +1,7 @@
+sudo: false
+
 language: node_js
-node_js:
-  - '6.0'
-  - '8.0'
+
 addons:
   apt:
     sources:
@@ -11,3 +11,7 @@ addons:
     - gcc-4.8
     - dbus
     - libdbus-1-dev
+
+node_js:
+  - '6.0'
+  - '8.0'
