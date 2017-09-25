@@ -1,6 +1,6 @@
 {
   "name": "wpa_supplicant",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Node.js module to interact with wpa_supplicant using dbus",
   "main": "index.js",
   "dependencies": {
