@@ -70,9 +70,11 @@ is ready to use.
 
 #### `wifi.on('error')`
 
-Emitted when there was an critical
+Emitted when there was an critical error.
 
 #### `wifi.on('warning')`
+
+Emitted when there was an non-critical error.
 
 #### `wifi.networks`
 
