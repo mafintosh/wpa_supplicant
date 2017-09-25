@@ -6,6 +6,8 @@ Node.js module to interact with wpa_supplicant using dbus
 npm install wpa_supplicant
 ```
 
+[![Build Status](https://travis-ci.org/mafintosh/wpa_supplicant.svg?branch=master)](https://travis-ci.org/mafintosh/wpa_supplicant)
+
 ## Usage
 
 ``` js
