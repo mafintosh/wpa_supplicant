@@ -2,13 +2,6 @@ language: node_js
 node_js:
   - '6.0'
   - '8.0'
-
-before_install:
-  - sudo apt-get -q update
-  - sudo apt-get install -y dbus
-  - sudo apt-get install -y libdbus-1-dev
-  - sudo apt-get install -y libglib2.0-dev
-
 addons:
   apt:
     sources:
@@ -16,3 +9,5 @@ addons:
   packages:
     - g++-4.8
     - gcc-4.8
+    - dbus
+    - libdbus-1-dev
