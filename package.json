@@ -1,0 +1,26 @@
+{
+  "name": "wpa_supplicant",
+  "version": "0.0.0",
+  "description": "Node.js module to interact with wpa_supplicant using dbus",
+  "main": "index.js",
+  "dependencies": {
+    "dbus": "^1.0.0",
+    "thunky": "^1.0.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/wpa_supplicant.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/wpa_supplicant/issues"
+  },
+  "homepage": "https://github.com/mafintosh/wpa_supplicant"
+}
