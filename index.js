@@ -227,6 +227,7 @@ Network.prototype.add = function (opts, cb) {
 
   opts.ssid = this.ssid
   opts.frequency = this.frequency
+  if (!opts.psk) opts.key_mgmt = 'NONE'
 
   this._iface.AddNetwork(opts, function (err, o) {
     if (o) self._networkPath = o
